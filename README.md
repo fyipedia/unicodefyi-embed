@@ -43,7 +43,7 @@ That's it. The widget fetches data from the UnicodeFYI API and renders with full
 | `data-unicodefyi` | entity, compare, glossary, guide, search, tooltip, [tools] | required | Widget type |
 | `data-slug` | e.g. "characters" | — | Entity slug from the UnicodeFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, minimal | modern | Widget design style |
+| `data-styleVariant` | modern, minimal | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Characters..." | Search box placeholder |
 
@@ -67,10 +67,10 @@ That's it. The widget fetches data from the UnicodeFYI API and renders with full
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-unicodefyi="entity" data-slug="characters" data-style="modern"></div>
+<div data-unicodefyi="entity" data-slug="characters" data-styleVariant="modern"></div>
 
 <!-- Minimal — subtle borders, flat design, no gradients -->
-<div data-unicodefyi="entity" data-slug="characters" data-style="minimal"></div>
+<div data-unicodefyi="entity" data-slug="characters" data-styleVariant="minimal"></div>
 ```
 
 ## Web Components (Custom Elements)
