@@ -175,6 +175,17 @@ Part of [FYIPedia](https://fyipedia.com) — open-source developer tools ecosyst
 | SymbolFYI | [symbolfyi.com](https://symbolfyi.com) | Symbol encoding in 11 formats, Unicode properties | [npm](https://www.npmjs.com/package/symbolfyi-embed) |
 | **UnicodeFYI** | [unicodefyi.com](https://unicodefyi.com) | Unicode characters, 17 encodings, text analysis | **[npm](https://www.npmjs.com/package/unicodefyi-embed)** |
 
+## Embed Widget
+
+Embed [UnicodeFYI](https://unicodefyi.com) widgets on any website with [unicodefyi-embed](https://widget.unicodefyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/unicodefyi-embed@1/dist/embed.min.js"></script>
+<div data-unicodefyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.unicodefyi.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
