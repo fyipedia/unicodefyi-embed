@@ -1,0 +1,27 @@
+# UnicodeFYI Embed Widget
+
+> Embeddable UnicodeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/unicodefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://unicodefyi.com
+- Widget docs: https://widget.unicodefyi.com
+- npm: https://www.npmjs.com/package/unicodefyi-embed
+- GitHub: https://github.com/fyipedia/unicodefyi-embed
+- API: https://unicodefyi.com/developers/
+
+## Creative FYI Widget Family
+
+- [ColorFYI Widget](https://widget.colorfyi.com)
+- [FontFYI Widget](https://widget.fontfyi.com)
+- [EmojiFYI Widget](https://widget.emojifyi.com)
+- [SymbolFYI Widget](https://widget.symbolfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
