@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# UnicodeFYI Embed Widget
+# Main site: https://unicodefyi.com
+# Widget docs: https://widget.unicodefyi.com
+# npm: https://www.npmjs.com/package/unicodefyi-embed
