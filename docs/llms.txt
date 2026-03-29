@@ -1,21 +1,51 @@
 # UnicodeFYI Embed Widget
 
-> Embeddable UnicodeFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Unicode characters, 17 encodings, text analysis. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/unicodefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/unicodefyi-embed@1/dist/embed.min.js"></script>
+<div data-unicodefyi="unicode-converter" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- entity: `data-unicodefyi="entity"`
+- glossary: `data-unicodefyi="glossary"`
+- guide: `data-unicodefyi="guide"`
+- compare: `data-unicodefyi="compare"`
+- search: `data-unicodefyi="search"`
+- unicode-converter (interactive): `data-unicodefyi="unicode-converter"`
+- analyzer (interactive): `data-unicodefyi="analyzer"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-unicodefyi="unicode-converter" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/unicodefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://unicodefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://unicodefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://unicodefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://unicodefyi.com
 - Widget docs: https://widget.unicodefyi.com
-- npm: https://www.npmjs.com/package/unicodefyi-embed
+- API documentation: https://unicodefyi.com/developers/
+- npm package: https://www.npmjs.com/package/unicodefyi-embed
 - GitHub: https://github.com/fyipedia/unicodefyi-embed
-- API: https://unicodefyi.com/developers/
 
-## Creative FYI Widget Family
+## Creative FYI Widget Network
 
 - [ColorFYI Widget](https://widget.colorfyi.com)
 - [FontFYI Widget](https://widget.fontfyi.com)
